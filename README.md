@@ -4,7 +4,7 @@ A Simple App for url shortner
 
 ## Description
 
-Easy your url managment ,Completetly free.
+Easy  url managment ,Completetly free.
 We have scalabe approach for multi-distrubted approach so that , no two urls will get same shorthandcode .
 It can be seen at -https://github.com/manishk901/UrlShortner/blob/master/src/main/java/com/learning/urlshortner/util/Base62Util.java
 Test Coverages with 86%.
