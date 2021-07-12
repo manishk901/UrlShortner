@@ -5,7 +5,8 @@ A Simple App for url shortner
 ## Description
 
 Easy  url managment ,Completetly free.
-We have scalabe approach for multi-distrubted approach so that , no two urls will get same shorthandcode .
+This single instance application is designed in a such a way that . It can be extended to multi node distributed system. 
+To avoid duplicates / collision between two or more URLs and to maintain consistency and fault tolerance . We have made use of a counter range (in this case it's just a variable for simplification purpose) which will be distributed across the nodes . Hence we don't have encode our actual long URL instead we will encode our counter value . So this way of architecture would prevent any duplicates / overriding of data.
 It can be seen at -https://github.com/manishk901/UrlShortner/blob/master/src/main/java/com/learning/urlshortner/util/Base62Util.java
 Test Coverages with 86% -https://github.com/manishk901/UrlShortner/blob/master/testcoverage.png
 
