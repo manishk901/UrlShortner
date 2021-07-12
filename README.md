@@ -24,7 +24,7 @@ We are using spring libarys
 ### Executing program
 
 * mvn spring:run
-* http://localhost:8080/ or http://localhost:8080/swagger-ui.htm
+* http://localhost:8080/ or http://localhost:8080/swagger-ui.html
 ```
 you can use swagger also directly.
 ```
