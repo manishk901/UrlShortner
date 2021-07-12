@@ -23,6 +23,7 @@ For building and running the application you need:
 ### Installing
 
 We are using spring libarys
+mvn clean build
 
 ### Executing program
 
