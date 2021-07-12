@@ -15,7 +15,11 @@ we need to use mvn spring-boot:run
 
 ### Dependencies
 
-We need maven to be installed.
+For building and running the application you need:
+
+JDK 1.8
+Maven 3
+IDE of Your Choice
 
 ### Installing
 
