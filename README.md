@@ -2,6 +2,11 @@
 
 A Simple App for url shortner
 
+# Problem
+Build a URL shortener application without using any external service. 
+As a user I will be able to go to a page, type in a URL and get a short URL out of it. I will also  be shown all existing short URLs and the number of times it was used. When anyone opens  the short URL, they will be redirected to the initial URL that was used to generate a short  URL. 
+
+
 ## Description
 
 Easy  url managment ,Completetly free.
