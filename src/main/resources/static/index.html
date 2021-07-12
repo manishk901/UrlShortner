@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="tinyUrl.js"></script>
+<title>Page</title>
+
+</head>
+<body>
+	<div class="row">
+		<form>
+
+			<div class="col-sm-4">
+				<div class="form-group">
+					<label for="url">url:</label> <input type="text"
+						class="form-control" id="url"
+						pattern="[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)"
+						title="please enter valid url">
+					<button id="getShortUrl" type="submit" class="btn">getShortUrl</button>
+				</div>
+			</div>
+		</form>
+		<div class="col-sm-4">
+		if you have shorthand please enter to open the url
+		<div class="form-group">
+		</div>
+		<input type="text" class="form-control" id="shortHandCode"/>
+			<button id="goToUrl" type="submit" class="btn">goToUrl</button>
+		</div>
+	</div>
+	<div class="row">
+	<span id="loading">Loading...............</span>
+	<div class="col-sm-4" id="redirectDiv">
+		your Redirect url is <a id="redirect" href="" target="_blank">Go
+			to your url</a>
+			 and your urlCode is - <span id="shortHand"></span>
+	</div>
+	</div>
+	<button id="getAllButton" type="button" class="btn">Get All urls</button>
+	<div  class="row">
+		<div id="tableDiv" class="col-sm-4">
+		</div>
+	</div>
+</body>
